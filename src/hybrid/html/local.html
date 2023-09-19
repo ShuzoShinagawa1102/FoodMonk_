@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0,minimum-scale=1.0"
+    />
+    <meta charset="utf-8" />
+    <title></title>
+    <style>
+      html,
+      body,
+      #map_canvas {
+        height: 100%;
+        margin: 0px;
+        padding: 0px;
+      }
+    </style>
+    <script
+      async
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDDiCLXghb5ALx0FvTuHTw40dO2hn5f3_8&language=ja&callback=initMap"
+    ></script>
+    <script type="text/javascript" src="./js/uni.webview.1.5.4.js"></script>
+    <script>
+      function initMap() {
+        map = new google.maps.Map(document.getElementById('map_canvas'), {
+          center: { lat: -34.397, lng: 150.644 },
+          disableDefaultUI: true,
+          zoom: 15
+        })
+      }
+      function postMiniMessage(data) {
+        uni.postMessage({
+          data: {action: 'message'}
+        })
+      }
+      function test(data) {
+        console.log(data)
+      }
+      window.initMap = initMap
+    </script>
+  </head>
+  <body>
+    <div id="map_canvas"></div>
+  </body>
+</html>

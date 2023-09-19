@@ -1,0 +1,69 @@
+{
+    "name" : "MINI_APP_TEMPLATE",
+    "appid" : "__UNI__MINI_APP_TEMPLATE",
+    "description" : "",
+    "versionName" : "1.1.0",
+    "versionCode" : 110,
+    "transformPx" : false,
+    "app-plus" : {
+        "compilerVersion" : 3,
+        "compatible" : {
+            "ignoreVersion" : true
+        },
+        "splashscreen" : {
+            "alwaysShowBeforeRender" : true,
+            "waiting" : true,
+            "autoclose" : true,
+            "delay" : 0
+        },
+        "modules" : {
+            "Maps" : {},
+            "Geolocation" : {}
+        },
+        "distribute" : {
+            "android" : {
+                "permissions" : [
+                    "<uses-feature android:name=\"android.hardware.camera\"/>",
+                    "<uses-feature android:name=\"android.hardware.camera.autofocus\"/>",
+                    "<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.ACCESS_WIFI_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.CAMERA\"/>",
+                    "<uses-permission android:name=\"android.permission.CHANGE_NETWORK_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.CHANGE_WIFI_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.FLASHLIGHT\"/>",
+                    "<uses-permission android:name=\"android.permission.GET_ACCOUNTS\"/>",
+                    "<uses-permission android:name=\"android.permission.MOUNT_UNMOUNT_FILESYSTEMS\"/>",
+                    "<uses-permission android:name=\"android.permission.READ_LOGS\"/>",
+                    "<uses-permission android:name=\"android.permission.READ_PHONE_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.VIBRATE\"/>",
+                    "<uses-permission android:name=\"android.permission.WAKE_LOCK\"/>",
+                    "<uses-permission android:name=\"android.permission.WRITE_SETTINGS\"/>"
+                ]
+            },
+            "ios" : {
+                "privacyDescription" : {
+                    "NSMicrophoneUsageDescription" : ""
+                }
+            },
+            "sdkConfigs" : {
+                "maps" : {
+                    "google" : {
+                        "APIKey_ios" : "AIzaSyDDiCLXghb5ALx0FvTuHTw40dO2hn5f3_8",
+                        "APIKey_android" : "AIzaSyDDiCLXghb5ALx0FvTuHTw40dO2hn5f3_8"
+                    }
+                },
+                "geolocation" : {
+                    "system" : {
+                        "__platform__" : [ "ios", "android" ]
+                    }
+                }
+            },
+            "screenOrientation" : [ "portrait-primary" ]
+        }
+    },
+    "uniStatistics" : {
+        "enable" : false
+    },
+    "vueVersion" : "3",
+    "locale" : "ja"
+}

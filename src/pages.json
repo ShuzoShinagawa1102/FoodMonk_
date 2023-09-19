@@ -1,0 +1,17 @@
+{
+  "pages": [
+    {
+      "path": "pages/home/home",
+      "style": {
+        "navigationBarTitleText": "FoodMonk"
+      }
+    }
+    ],
+  
+  "globalStyle": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "FoodMonk",
+    "navigationBarBackgroundColor": "#D48831",
+    "backgroundColor": "#F8F8F8"
+  }
+}
