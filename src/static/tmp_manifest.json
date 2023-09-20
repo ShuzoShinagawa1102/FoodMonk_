@@ -7,8 +7,8 @@
     "name" : "MINI_APP_TEMPLATE",
     "appid" : "__UNI__MINI_APP_TEMPLATE",
     "description" : "",
-    "versionName" : "1.2.7",
-    "versionCode" : 127,
+    "versionName" : "1.2.8",
+    "versionCode" : 128,
     "transformPx" : false,
     "app-plus" : {
         "compilerVersion" : 3,
