@@ -2,8 +2,8 @@
     "name" : "MINI_APP_TEMPLATE",
     "appid" : "__UNI__MINI_APP_TEMPLATE",
     "description" : "",
-    "versionName" : "1.7.9",
-    "versionCode" : 179,
+    "versionName" : "2.0.4",
+    "versionCode" : 204,
     "transformPx" : false,
     "app-plus" : {
         "compilerVersion" : 3,
